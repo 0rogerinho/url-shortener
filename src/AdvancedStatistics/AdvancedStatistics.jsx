@@ -23,7 +23,7 @@ const data = [
 
 const AdvancedStatistics = () => {
   return (
-    <section className="px-6 md:px-40 mt-40 flex items-center relative">
+    <section className=" px-6 md:px-40 mt-40 flex items-center relative">
       <div className="flex flex-col gap-32 after:w-[10px] after:h-[100%] after:left-2/4 after:bg-[#2BD0D0] after:absolute md:after:w-[60%] md:after:h-[10px] md:flex-row md:justify-around md:gap-0 md:after:top-2/4 md:after:left-auto md:after:-translate-y-2/4 md:[&>*:nth-child(1)]:-top-14 md:[&>*:nth-child(3)]:top-14">
         {data.map(({ title, content, img }) => (
           <CardStatistic
