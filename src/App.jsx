@@ -1,7 +1,7 @@
 import AdvancedStatistics from './AdvancedStatistics/AdvancedStatistics';
-import Nav from './Header/nav';
-import Hero from './Hero/Hero';
-import SendUrl from './SendUrl/SendUrl';
+import Nav from '../src/Header/Nav';
+import Hero from '../src/Hero/Hero';
+import SendUrl from '../src/SendUrl/SendUrl';
 
 function App() {
   return (
